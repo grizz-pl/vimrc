@@ -12,6 +12,9 @@ endif
 
 " }}}
 
+autocmd BufRead,BufNewFile *.mkd,*.md,*.markdown   set filetype=mkd
+autocmd BufNewFile * startinsert
+
 set number
 set autoindent
 filetype plugin on
