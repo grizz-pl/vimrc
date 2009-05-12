@@ -1,13 +1,13 @@
 " {{{   [ console vim ]
 
 if !has("gui_running")
-	colorscheme desert 
+	colorscheme zenburn
 endif
 " }}}
 
 " {{{   [ gVim ]
 if has("gui_running")
-	colorscheme delek
+	colorscheme evening
 endif 
 
 " }}}
