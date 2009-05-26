@@ -1,7 +1,7 @@
 " {{{   [ console vim ]
 
 if !has("gui_running")
-	colorscheme zenburn
+	colorscheme slate
 endif
 " }}}
 
