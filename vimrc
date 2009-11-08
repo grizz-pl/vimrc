@@ -21,7 +21,7 @@ filetype plugin on
 filetype on
 filetype indent on
 tab all
-set guifont=monospace\ 8
+set guifont=Mono\ 9
 set spelllang=pl
 set background=dark
 set history=1000
