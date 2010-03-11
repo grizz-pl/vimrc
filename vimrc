@@ -50,3 +50,4 @@ set title
 map <F5> :set spelllang=pl<CR>
 map <F6> :set spelllang=en<CR>
 map <silent><F8> :setlocal spell!<CR> 
+map <F9> :set nowrap!<CR>
