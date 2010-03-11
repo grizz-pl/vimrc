@@ -8,7 +8,7 @@ endif
 " {{{   [ gVim ]
 if has("gui_running")
 	colorscheme evening
-endif 
+endif
 
 " }}}
 
@@ -30,7 +30,6 @@ set smarttab
 set autoread
 set tabstop=4
 set shiftwidth=4
-set pastetoggle=<F12>
 set nocompatible
 set ruler
 set enc=utf-8
@@ -46,8 +45,9 @@ set showcmd
 set cursorline
 set title
 set showbreak=>>>
+"show tabs whitespaces etc
+set listchars=tab:>-,trail:█,extends:>,precedes:<
 
-noremap <silent> <F9> :call ToggleWrap()<CR>
 function ToggleWrap()
   if &wrap
 	echo "Wrap OFF"
@@ -79,4 +79,8 @@ endfunction
 
 map <F5> :set spelllang=pl<CR>
 map <F6> :set spelllang=en<CR>
-map <silent><F8> :setlocal spell!<CR> 
+map <silent><F8> :setlocal spell!<CR>
+"show tabs white spaces etc.
+map <silent><F10> :set list!<CR>
+set pastetoggle=<F12>
+noremap <silent> <F9> :call ToggleWrap()<CR>
