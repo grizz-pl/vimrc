@@ -29,7 +29,6 @@ syntax on
 set smarttab
 set autoread
 set tabstop=4
-set expandtab
 set shiftwidth=4
 set pastetoggle=<F12>
 set nocompatible
